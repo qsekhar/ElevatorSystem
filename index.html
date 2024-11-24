@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Elevator System</h1>
+    <div id="building">
+        <div class="floor-numbers">
+            <div>9th</div>
+            <div>8th</div>
+            <div>7th</div>
+            <div>6th</div>
+            <div>5th</div>
+            <div>4th</div>
+            <div>3rd</div>
+            <div>2nd</div>
+            <div>1st</div>
+            <div>Ground Floor</div>
+        </div>
+        <div class="floors">
+            <div class="elevator-space" data-elevator-space="9,1"></div>
+            <div class="elevator-space" data-elevator-space="9,2"></div>
+            <div class="elevator-space" data-elevator-space="9,3"></div>
+            <div class="elevator-space" data-elevator-space="9,4"></div>
+            <div class="elevator-space" data-elevator-space="9,5"></div>
+            <div class="elevator-space" data-elevator-space="8,1"></div>
+            <div class="elevator-space" data-elevator-space="8,2"></div>
+            <div class="elevator-space" data-elevator-space="8,3"></div>
+            <div class="elevator-space" data-elevator-space="8,4"></div>
+            <div class="elevator-space" data-elevator-space="8,5"></div>
+            <div class="elevator-space" data-elevator-space="7,1"></div>
+            <div class="elevator-space" data-elevator-space="7,2"></div>
+            <div class="elevator-space" data-elevator-space="7,3"></div>
+            <div class="elevator-space" data-elevator-space="7,4"></div>
+            <div class="elevator-space" data-elevator-space="7,5"></div>
+            <div class="elevator-space" data-elevator-space="6,1"></div>
+            <div class="elevator-space" data-elevator-space="6,2"></div>
+            <div class="elevator-space" data-elevator-space="6,3"></div>
+            <div class="elevator-space" data-elevator-space="6,4"></div>
+            <div class="elevator-space" data-elevator-space="6,5"></div>
+            <div class="elevator-space" data-elevator-space="5,1"></div>
+            <div class="elevator-space" data-elevator-space="5,2"></div>
+            <div class="elevator-space" data-elevator-space="5,3"></div>
+            <div class="elevator-space" data-elevator-space="5,4"></div>
+            <div class="elevator-space" data-elevator-space="5,5"></div>
+            <div class="elevator-space" data-elevator-space="4,1"></div>
+            <div class="elevator-space" data-elevator-space="4,2"></div>
+            <div class="elevator-space" data-elevator-space="4,3"></div>
+            <div class="elevator-space" data-elevator-space="4,4"></div>
+            <div class="elevator-space" data-elevator-space="4,5"></div>
+            <div class="elevator-space" data-elevator-space="3,1"></div>
+            <div class="elevator-space" data-elevator-space="3,2"></div>
+            <div class="elevator-space" data-elevator-space="3,3"></div>
+            <div class="elevator-space" data-elevator-space="3,4"></div>
+            <div class="elevator-space" data-elevator-space="3,5"></div>
+            <div class="elevator-space" data-elevator-space="2,1"></div>
+            <div class="elevator-space" data-elevator-space="2,2"></div>
+            <div class="elevator-space" data-elevator-space="2,3"></div>
+            <div class="elevator-space" data-elevator-space="2,4"></div>
+            <div class="elevator-space" data-elevator-space="2,5"></div>
+            <div class="elevator-space" data-elevator-space="1,1"></div>
+            <div class="elevator-space" data-elevator-space="1,2"></div>
+            <div class="elevator-space" data-elevator-space="1,3"></div>
+            <div class="elevator-space" data-elevator-space="1,4"></div>
+            <div class="elevator-space" data-elevator-space="1,5"></div>
+            <!-- Previous HTML content remains the same until elevator images -->
+            <div class="elevator-space" data-elevator-space="0,1">
+                <object data="elevator-black.svg" type="image/svg+xml" data-elevator="1" data-position="0,1"></object>
+            </div>
+            <div class="elevator-space" data-elevator-space="0,2">
+                <object data="elevator-black.svg" type="image/svg+xml" data-elevator="2" data-position="0,2"></object>
+            </div>
+            <div class="elevator-space" data-elevator-space="0,3">
+                <object data="elevator-black.svg" type="image/svg+xml" data-elevator="3" data-position="0,3"></object>
+            </div>
+            <div class="elevator-space" data-elevator-space="0,4">
+                <object data="elevator-black.svg" type="image/svg+xml" data-elevator="4" data-position="0,4"></object>
+            </div>
+            <div class="elevator-space" data-elevator-space="0,5">
+                <object data="elevator-black.svg" type="image/svg+xml" data-elevator="5" data-position="0,5"></object>
+            </div>
+            <!-- Rest of the HTML remains the same -->
+        </div>
+        <div class="buttons">
+            <div><button data-call-from="9"> Call </button></div>
+            <div><button data-call-from="8"> Call </button></div>
+            <div><button data-call-from="7"> Call </button></div>
+            <div><button data-call-from="6"> Call </button></div>
+            <div><button data-call-from="5"> Call </button></div>
+            <div><button data-call-from="4"> Call </button></div>
+            <div><button data-call-from="3"> Call </button></div>
+            <div><button data-call-from="2"> Call </button></div>
+            <div><button data-call-from="1"> Call </button></div>
+            <div><button data-call-from="0"> Call </button></div>
+        </div>
+        <div class="waiting-time">
+            <div><div data-waiting-time="9"></div></div>
+            <div><div data-waiting-time="8"></div></div>
+            <div><div data-waiting-time="7"></div></div>
+            <div><div data-waiting-time="6"></div></div>
+            <div><div data-waiting-time="5"></div></div>
+            <div><div data-waiting-time="4"></div></div>
+            <div><div data-waiting-time="3"></div></div>
+            <div><div data-waiting-time="2"></div></div>
+            <div><div data-waiting-time="1"></div></div>
+            <div><div data-waiting-time="0"></div></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
